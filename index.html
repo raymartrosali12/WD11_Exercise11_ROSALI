@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Animes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .footer-link{
+            text-decoration: none;
+            color: white!important;
+            font-size: 20px;
+        }
+        .footer-link:hover{
+            transition: 0.5s;
+            color: black!important;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+<nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Anime List</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        </div>
+        <form class="d-flex input-group " style="max-width: 300px; ">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+    </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="1.png" class="d-block w-100" alt="...">
+        
+        </div>
+        <div class="carousel-item">
+        <img src="2.png" class="d-block w-100" alt="...">
+        
+        </div>
+        <div class="carousel-item">
+        <img src="3.png" class="d-block w-100" alt="...">
+        
+        </div>
+        <div class="carousel-item">
+        <img src="4.png" class="d-block w-100" alt="...">
+        
+        </div>
+        <div class="carousel-item">
+        <img src="5.png" class="d-block w-100" alt="...">
+        
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<br>
+<br>
+<div class="container">
+    <h1 class="text-warning">
+        Top 5 Animes of the week:
+    </h1>
+    <br>
+    <br>
+    <div class="row g-5 justify-content-center">
+        <div class="col-md-4">
+            <div class="card" style="">
+                <img src="1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anime 1</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi nam illum iure exercitationem, voluptatem ipsa deleniti delectus inventore soluta, unde recusandae ullam aperiam iste eum deserunt repellendus eaque vero.</p>
+                    <a href="anime1.html" class="btn btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="">
+                <img src="2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anime 2</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi nam illum iure exercitationem, voluptatem ipsa deleniti delectus inventore soluta, unde recusandae ullam aperiam iste eum deserunt repellendus eaque vero.</p>
+                    <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="">
+                <img src="3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anime 3</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi nam illum iure exercitationem, voluptatem ipsa deleniti delectus inventore soluta, unde recusandae ullam aperiam iste eum deserunt repellendus eaque vero.</p>
+                    <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="">
+                <img src="4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anime 4</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi nam illum iure exercitationem, voluptatem ipsa deleniti delectus inventore soluta, unde recusandae ullam aperiam iste eum deserunt repellendus eaque vero.</p>
+                    <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="">
+                <img src="5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anime 5</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi nam illum iure exercitationem, voluptatem ipsa deleniti delectus inventore soluta, unde recusandae ullam aperiam iste eum deserunt repellendus eaque vero.</p>
+                    <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<footer class="container-fluid bg-warning justify-content-between align-items-center d-flex">
+    <div class="p-2 text-dark fw-bold">
+        Copyright 2022
+    </div>
+    <div class="text-light">
+        <a href="#" class="p-2 footer-link">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#" class="p-2 footer-link">
+            <i class="bi bi-messenger"></i>
+        </a>
+        <a href="#" class="p-2 footer-link">
+            <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" class="p-2 footer-link">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </div>
+</footer>
+    
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
